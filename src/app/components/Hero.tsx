@@ -8,7 +8,7 @@ export function Hero() {
         <div className="absolute top-20 right-10 w-96 h-96 bg-gradient-to-br from-[#F2E8C6]/40 via-[#E8B598]/30 to-transparent rounded-full blur-3xl animate-pulse"></div>
         <div className="absolute bottom-20 left-10 w-[500px] h-[500px] bg-gradient-to-br from-[#A64253]/20 via-[#C97A6C]/20 to-transparent rounded-full blur-3xl animate-pulse" style={{ animationDelay: "1s" }}></div>
         <div className="absolute top-1/2 left-1/2 w-72 h-72 bg-gradient-to-br from-[#800000]/10 to-transparent rounded-full blur-3xl animate-pulse" style={{ animationDelay: "2s" }}></div>
-        
+
         {/* Floating sparkles */}
         <div className="absolute top-32 right-1/4 animate-bounce" style={{ animationDelay: "0.5s", animationDuration: "3s" }}>
           <Sparkles className="size-6 text-[#A64253]/40" />
@@ -34,19 +34,13 @@ export function Hero() {
               Hi, I'm
             </p>
             <h1 className="text-5xl md:text-7xl mb-4">
-              <span className="bg-gradient-to-r from-[#800000] via-[#A64253] to-[#C97A6C] bg-clip-text text-transparent">
-                Data Analyst
-              </span>
+              <span className="bg-gradient-to-r from-[#800000] via-[#A64253] to-[#C97A6C] bg-clip-text text-transparent">Alfiyyah Ajeng Nurardita</span>
             </h1>
-            <p className="text-xl text-[#2D1B1B] mb-6 italic">
-              Transforming data into actionable insights with a touch of creativity ✨
-            </p>
+            <p className="text-xl text-[#2D1B1B] mb-6 italic">Transforming data into actionable insights with a touch of creativity ✨</p>
           </div>
 
           <p className="text-[#6B5454] max-w-lg leading-relaxed">
-            I specialize in analyzing complex datasets, building interactive dashboards, 
-            and delivering data-driven solutions that drive business growth. 
-            Let's turn your data into meaningful stories.
+            I specialize in analyzing complex datasets, building interactive dashboards, and delivering data-driven solutions that drive business growth. Let's turn your data into meaningful stories.
           </p>
 
           <div className="flex gap-4 flex-wrap">
@@ -80,7 +74,7 @@ export function Hero() {
                     <Star className="size-4 fill-current" />
                     Projects Completed
                   </p>
-                  <p className="text-4xl font-bold">25+</p>
+                  <p className="text-4xl font-bold">10+</p>
                 </div>
                 <div className="p-4 bg-white/10 rounded-2xl backdrop-blur-sm">
                   <ChartLine className="size-12 text-[#F2E8C6]" />
@@ -90,24 +84,20 @@ export function Hero() {
               <div className="grid grid-cols-2 gap-4">
                 <div className="bg-white/10 rounded-2xl p-4 hover:bg-white/20 transition-all border border-white/10">
                   <TrendingUp className="size-8 text-[#F2E8C6] mb-2" />
-                  <p className="text-[#F2E8C6] text-sm">SQL Analysis</p>
-                  <p className="text-white text-2xl">15+</p>
+                  <p className="text-[#F2E8C6] text-sm">Data Analysis</p>
+                  <p className="text-white text-2xl">5</p>
                 </div>
                 <div className="bg-white/10 rounded-2xl p-4 hover:bg-white/20 transition-all border border-white/10">
                   <Sparkles className="size-8 text-[#F2E8C6] mb-2" />
                   <p className="text-[#F2E8C6] text-sm">Dashboards</p>
-                  <p className="text-white text-2xl">10+</p>
+                  <p className="text-white text-2xl">5</p>
                 </div>
               </div>
 
               {/* Decorative chart bars */}
               <div className="flex items-end gap-2 h-24 bg-white/5 rounded-2xl p-3">
                 {[40, 70, 50, 90, 60, 80].map((height, i) => (
-                  <div
-                    key={i}
-                    className="flex-1 bg-gradient-to-t from-[#F2E8C6] to-[#E8B598] rounded-lg transition-all hover:from-white hover:to-[#F2E8C6] hover:scale-105"
-                    style={{ height: `${height}%` }}
-                  />
+                  <div key={i} className="flex-1 bg-gradient-to-t from-[#F2E8C6] to-[#E8B598] rounded-lg transition-all hover:from-white hover:to-[#F2E8C6] hover:scale-105" style={{ height: `${height}%` }} />
                 ))}
               </div>
             </div>
