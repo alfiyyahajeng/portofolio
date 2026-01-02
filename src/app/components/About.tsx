@@ -22,7 +22,7 @@ export function About() {
               </div>
               <p className="text-sm">Years Experience</p>
             </div>
-            
+
             {/* Floating decorative elements */}
             <div className="absolute -top-4 -left-4 bg-gradient-to-br from-[#F2E8C6] to-[#E8B598] rounded-2xl p-3 shadow-xl animate-bounce border-2 border-white">
               <Sparkles className="size-6 text-[#800000]" />
@@ -36,32 +36,22 @@ export function About() {
                 About Me
               </p>
               <h2 className="text-4xl md:text-5xl mb-4">
-                <span className="bg-gradient-to-r from-[#800000] via-[#A64253] to-[#C97A6C] bg-clip-text text-transparent">
-                  Passionate About Data & Design
-                </span>
+                <span className="bg-gradient-to-r from-[#800000] via-[#A64253] to-[#C97A6C] bg-clip-text text-transparent">Passionate About Data & Design</span>
               </h2>
             </div>
 
             <div className="space-y-4 text-[#2D1B1B] leading-relaxed">
               <p>
-                I'm a data analyst who believes that beautiful visualizations and smart 
-                insights go hand in hand. My approach combines technical expertise with 
-                creative problem-solving to deliver solutions that are both powerful and 
+                I'm a data analyst who believes that beautiful visualizations and smart insights go hand in hand. My approach combines technical expertise with creative problem-solving to deliver solutions that are both powerful and
                 aesthetically pleasing. ✨
               </p>
 
               <p>
-                With experience in SQL, Python, Tableau, and Power BI, I transform raw data 
-                into compelling stories that drive strategic decisions. Whether it's building 
-                interactive dashboards, conducting deep-dive analyses, or presenting complex 
-                findings in simple terms, I'm here to make data work for you.
+                With experience in SQL, Python, Tableau, and Power BI, I transform raw data into compelling stories that drive strategic decisions. Whether it's building interactive dashboards, conducting deep-dive analyses, or presenting
+                complex findings in simple terms, I'm here to make data work for you.
               </p>
 
-              <p>
-                When I'm not analyzing datasets, you'll find me exploring new visualization 
-                techniques, staying updated with the latest analytics trends, and finding 
-                creative ways to present data in meaningful ways. 💕
-              </p>
+              <p>When I'm not analyzing datasets, you'll find me exploring new visualization techniques, staying updated with the latest analytics trends, and finding creative ways to present data in meaningful ways. 💕</p>
             </div>
 
             <div className="grid grid-cols-2 gap-4 pt-4">
